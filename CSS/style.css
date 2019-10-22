@@ -1,0 +1,18 @@
+body{
+    background-image: url("../graphics/background.jpg");
+    background-size: contain;
+    background-position: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    align: left;
+    
+}
+#mystuff{
+    width: 65%;
+}
+#portrait{
+    width: 100%;
+}
+#mytable{
+    outline-width: 5px;
+}
