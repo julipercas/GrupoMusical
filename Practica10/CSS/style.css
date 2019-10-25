@@ -7,12 +7,27 @@ body{
     align: left;
     
 }
+table{
+    border-collapse: collapse;
+}
 #mystuff{
     width: 65%;
 }
 #portrait{
     width: 100%;
 }
-#mytable{
-    outline-width: 5px;
+#mytable th, td{
+    
+    border: 1px solid black;
+    
+}
+#thead{
+    background-color: gray;
+    color: whitesmoke;
+    font-size:25px;
+}
+#tfoot{
+    background-color: gray;
+    color: whitesmoke;
+    font-style: italic;
 }
